@@ -1,12 +1,12 @@
 import { Seller } from "./seller"
 
 export type Sale = {
-    "id": number,
-    "visited": number,
-    "deals": number,
-    "amount": number,
-    "date": "2021-01-25",
-    "seller": Seller;
+    id: number,
+    visited: number,
+    deals: number,
+    amount: number,
+    date: string,
+    seller: Seller;
 }
 
 export type SalePage = {
